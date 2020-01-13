@@ -24,7 +24,7 @@ int  yylex(void);
 %%
 
 program:
-    instruction_list END  { execute($1); delete_node($1); exit(0); }
+    'p' 'i' 'k' 'a' 'c' 'h' 'u' '-' '-' instruction_list END  { execute($10); delete_node($10); exit(0); }
     ;
 instruction_list:
     instruction     { $$ = $1; }
