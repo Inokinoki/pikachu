@@ -55,6 +55,14 @@ gcc y.tab.c lex.yy.c -ly -o pikachu
 
 You should get the output `Hello World!`.
 
+```bash
+./pikachu < test-pikachu.txt
+```
+
+You should be able to get:
+
+![Pikachu.png](pikachu.png)
+
 ## Code
 
 Code your program on Brainfuck, transform `<` with `pi`, `>` with `chu`, `+` with `ka`, and keep the other characters not changed.
