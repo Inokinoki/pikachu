@@ -1,0 +1,9 @@
+# lex/flex
+lex.yy.c
+
+# Executable
+pikachu
+
+# yacc/bison
+y.tab.c
+y.tab.h
